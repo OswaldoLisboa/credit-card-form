@@ -1,0 +1,92 @@
+.form {
+  position: fixed;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px 10px	#827d7d;
+  padding: 3%;
+  padding-top: calc(5% + 75px);
+  top: calc(5% + 75px);
+  width: 25%;
+  height: 350px;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  background-color: white;
+  font-size: 0.8em;
+  color: #a7a8a7;
+}
+
+.form-expiration-cvv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-expiration {
+  width: 65%;
+}
+
+.form-cvv > input, .form-expiration > select{
+  width: 55px;
+}
+
+.form-expiration-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-button {
+  margin: auto;
+  width: 100%;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  background-color: #0275c5;
+  opacity: 0.9;
+  color: white;
+  border-radius: 5px;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+
+input, select {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+select {
+  height: 47px;
+}
+
+input {
+  padding-left: 10px;
+  height: 45px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+select {
+  width: 48%;
+  padding-left: 10px;
+  padding-right: 10px;
+  appearance:none;
+}

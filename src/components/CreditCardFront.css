@@ -1,0 +1,53 @@
+.credit-card-front {
+  border-radius: 10px;
+  height: 150px;
+  width: 262.5px;
+  top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url("https://i.imgur.com/ibeG0jY.jpg");
+  color: white;
+  position: fixed;
+  z-index: 3;
+  box-shadow: 0px 0px 30px 10px	#827d7d;
+}
+
+.credit-card-chip-logo {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.credit-card-chip {
+  margin-top: 20px;
+}
+
+.credit-card-number {
+  padding-left: 2px;
+  margin: 0 15px;
+  font-size: 1.5em;
+  word-spacing: 0.25em;
+  display: flex;
+  align-items: center;
+}
+
+.credit-card-holder {
+  padding-left: 2px;
+  margin: 15px;
+  flex-grow: 2;
+  margin-right: 10px;
+  font-size: 13px;
+}
+
+.credit-card-expiration {
+  padding-left: 2px;
+  margin: 10px;
+}
+
+.holder-expiration {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
